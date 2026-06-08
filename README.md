@@ -11,3 +11,7 @@ WASD: mover el dron w/s: delante/atras a/d: Izquierda/derecha
 flecha Arriba/abajo: Subir o bajar el dron
 
 flecha Izquierda/Derecha: Rotar el dron
+
+T: Despejar el dron
+
+L: Aterrizar el dron
