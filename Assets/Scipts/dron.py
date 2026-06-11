@@ -11,7 +11,7 @@ if len(sys.argv) < 2:
 
 ip = sys.argv[1]
 
-UNITY_IP = {ip}
+UNITY_IP = ip
 UDP_RECEIVE_PORT = 5005  # Port on Python escolta Unity
 UDP_VIDEO_PORT = 5006    # Port on Python envia el vídeo a Unity
 print(f"Initialized with ip: {ip} \n Port for control: {UDP_RECEIVE_PORT} \n Port for video: {UDP_VIDEO_PORT}")
