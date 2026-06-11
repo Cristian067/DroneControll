@@ -12,6 +12,6 @@ flecha Arriba/abajo: Subir o bajar el dron
 
 flecha Izquierda/Derecha: Rotar el dron
 
-T: Despejar el dron
+T: Despegar el dron
 
 L: Aterrizar el dron
