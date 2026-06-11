@@ -100,7 +100,6 @@ public class Controller : MonoBehaviour
 
         if (Input.GetButtonDown("TakeOff"))
         {
-            Debug.LogError("Takeoff button pressed");
             SendCommand("takeoff");
             isFlying = true;
         }
