@@ -27,6 +27,8 @@ tello = Tello()
 tello.connect()
 tello.streamon()
 
+print(f"Bateria: {tello.get_battery()}%")
+
 # Socket per rebre ordres de Unity
 cmd_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 cmd_socket.bind(("0.0.0.0", UDP_RECEIVE_PORT))
